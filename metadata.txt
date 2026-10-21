@@ -1,0 +1,14 @@
+[general]
+name=NDVI Extractor v2
+qgisMinimumVersion=3.34
+qgisMaximumVersion=4.99
+description=Search Sentinel-2 L2A imagery, mask clouds, mosaic several scenes, calculate NDVI, run zonal statistics, and export GeoTIFF and CSV.
+version=2.1.1
+author=MAPP
+email=mpanduprab@gmail.com
+category=Raster
+icon=icon.svg
+experimental=False
+deprecated=False
+tags=NDVI,Sentinel-2,remote sensing,zonal statistics,STAC,cloud mask,mosaic
+about=End-to-end NDVI workflow for QGIS 3.x and QGIS 4.x using the public Element84 Earth Search STAC catalog and Sentinel-2 Level-2A Cloud-Optimized GeoTIFF assets. Includes PyQt5/PyQt6-compatible UI enums.
